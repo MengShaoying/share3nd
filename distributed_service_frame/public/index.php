@@ -10,6 +10,7 @@ register_shutdown_function('service_fatel_err_serialize');
 
 // init service
 include '../service/demo.php';
+include '../service/test.php';
 
 // fix
 service_method_not_found();
