@@ -42,6 +42,7 @@ if_not_found(function () {
 
 // init controller
 include CONTROLLER_DIR.'/index.php';
+include CONTROLLER_DIR.'/test.php';
 
 // fix
 not_found();
