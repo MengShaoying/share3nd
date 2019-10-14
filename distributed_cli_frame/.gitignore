@@ -1,1 +1,3 @@
 # 不进行版本跟踪的文件
+/dep_client
+/dep_domain
