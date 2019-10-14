@@ -9,15 +9,15 @@ return [
         'local' => [
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'database' => 'default',
+            'database' => 'test_db1',
             'username' => 'root',
-            'password' => 'password',
+            'password' => '',
 
             'write' => [
-                '/var/run/mysqld/mysqld.sock',
+                '127.0.0.1' => '3306',
             ],
             'schema' => [
-                '/var/run/mysqld/mysqld.sock',
+                '127.0.0.1' => '3306',
             ],
             'options' => [
                 PDO::ATTR_CASE => PDO::CASE_NATURAL,
